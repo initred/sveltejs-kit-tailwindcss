@@ -1,0 +1,26 @@
+{
+	/* Tailwindcss Setting */
+	"css.validate": false,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html"
+	},
+	"files.associations": {
+		"*.css": "postcss"
+	},
+	"prettier.enable": true,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.prettier": true
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"cSpell.words": ["sveltejs", "sveltekit", "tailwindcss", "unplugin"],
+	"i18n-ally.localesPaths": ["src/locales"]
+}

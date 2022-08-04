@@ -1,0 +1,6 @@
+@import '@fontsource/roboto';
+@import 'tailwindcss.css';
+
+body {
+	@apply font-sans bg-white text-gray-700 dark:bg-gray-800 dark:text-white;
+}
